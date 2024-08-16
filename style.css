@@ -1,0 +1,162 @@
+/* Custom Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+header {
+    background-color: #007bff; /* Vibrant blue */
+    padding: 20px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.intro {
+    flex: 1;
+}
+
+.intro h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.intro p {
+    font-size: 1.2em;
+}
+
+#navbar {
+    display: flex;
+    gap: 15px;
+}
+
+#navbar .nav-link {
+    color: #00ff85; 
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+#navbar .nav-link:hover {
+    color: #ff005c; /* Vibrant pink */
+}
+
+section {
+    padding: 40px 20px;
+}
+
+#about {
+    background-color: #86a655; /* Light grey */
+    color: #333;
+}
+
+#skills {
+    background-color: #b19f29; /* Light green */
+    color: #333;
+}
+
+#education {
+    background-color: #d3adf7; 
+    color: #333;
+}
+
+section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+section p, section ul {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+section ul {
+    list-style-type: none;
+    padding: 20;
+}
+
+section ul li {
+    margin-bottom: 10px;
+    color: #555;
+    transition: color 0.3s ease;
+}
+
+section ul li:hover {
+    color: #ff005c; /* Vibrant pink */
+}
+
+#contact-form input, #contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #00ff85; /* Vibrant green */
+    background-color: #333;
+    color: white;
+    transition: border-color 0.3s ease;
+}
+
+#contact-form input:focus, #contact-form textarea:focus {
+    border-color: #ff005c; /* Vibrant pink */
+}
+
+#contact-form button {
+    background-color: #00ff85; /* Vibrant green */
+    color: #1c1c1c;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#contact-form button:hover {
+    background-color: #ff005c; /* Vibrant pink */
+}
+
+footer {
+    background-color: black; /* Dark grey */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin: 10px 0;
+    font-size: 0.9em;
+}
+
+@media (max-width: 768px) {
+    .header-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #navbar {
+        margin-top: 20px;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    #navbar .nav-link {
+        margin: 5px 0;
+    }
+
+    section {
+        text-align: center;
+    }
+}
