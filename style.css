@@ -1,6 +1,8 @@
 /* Custom Styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family:'poppins', sans-serif;
+    box-sizing:border-box;
+
     margin: 0;
     padding: 0;
     background-color: #f8f9fa;
@@ -8,13 +10,12 @@ body {
 }
 
 header {
-    background-color: #007bff; /* Vibrant blue */
-    padding: 20px;
+    background-color: black; 
+    padding: 70px;
     color: #fff;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
     
 }
 
@@ -46,6 +47,7 @@ header {
     overflow: hidden;
     display: flex;
     
+    
 }
 
 #navbar .nav-link {
@@ -67,18 +69,24 @@ section {
 }
 
 #about {
-    background-color: #86a655; /* Light grey */
+    border: #fff;
+    margin:20px;
+    background-color: #9dc363; /* Light grey */
     color: #333;
 }
 
 #skills {
     background-color: #b19f29; /* Light green */
     color: #333;
+    margin:20px;
+    border-color:lightyellow;
 }
 
 #education {
     background-color: #d3adf7; 
     color: #333;
+    margin:20px;
+    
 }
 
 section h2 {
