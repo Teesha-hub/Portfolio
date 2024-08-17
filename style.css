@@ -39,19 +39,27 @@ header {
 }
 
 #navbar {
+    list-style-type:none;
+    background-color:black;
+    padding:0px;
+    margin:0px;
+    overflow: hidden;
     display: flex;
-    gap: 15px;
+    
 }
 
 #navbar .nav-link {
-    color: #00ff85; 
+    color: white; 
     text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
     font-weight: bold;
-    transition: color 0.3s ease;
+   
 }
 
 #navbar .nav-link:hover {
-    color: #ff005c; /* Vibrant pink */
+    background-color: red; /* Vibrant pink */
 }
 
 section {
