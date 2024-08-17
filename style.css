@@ -1,4 +1,4 @@
-/* Custom Styles */
+
 body {
     font-family:'poppins', sans-serif;
     box-sizing:border-box;
@@ -73,12 +73,12 @@ section {
     border: 10px solid rgb(164, 237, 164);
     margin:10px;
     padding:30px;
-    background-color: #9dc363; /* Light grey */
+    background-color: #9dc363; 
     color: #333;
 }
 
 #skills {
-    background-color: #b19f29; /* Light green */
+    background-color: #b19f29; 
     color: white;
     margin:10px;
     padding:30px;
@@ -119,34 +119,6 @@ section ul li:hover {
     color: #ff005c; /* Vibrant pink */
 }
 
-#contact-form input, #contact-form textarea {
-    width: 100%;
-    padding: 10px;
-    margin: 10px 0;
-    border-radius: 5px;
-    border: 1px solid #00ff85; /* Vibrant green */
-    background-color: #333;
-    color: white;
-    transition: border-color 0.3s ease;
-}
-
-#contact-form input:focus, #contact-form textarea:focus {
-    border-color: #ff005c; /* Vibrant pink */
-}
-
-#contact-form button {
-    background-color: #00ff85; /* Vibrant green */
-    color: #1c1c1c;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-#contact-form button:hover {
-    background-color: #ff005c; /* Vibrant pink */
-}
 
 footer {
     background-color: black; /* Dark grey */
